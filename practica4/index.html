@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Registro de clientes</title>
+     <meta charset="UTF-8"/>
+     <meta rel="stylesheet" href="style.css"/>
+     <link rel="icon" href="resources/fv.ico"/>
+    </head>
+    <body>
+        <h1> Registro de clientes</h1>
+        <form method="post" action="guardar-cliente">
+            <input type="text"placeholder="Nombre y Apellido" required autofocus/><br>
+            <label>Fecha de nacimiento</label>
+            <input type="date"/><br>
+            <select>
+            <option disabled> Elige tu ciudad</option>
+            <option>Asunción</option>
+            </select>
+            <textarea placeholder="Escribe una direccion"></textarea><br>
+            <iframe width="425" height="350" src="https://www.openstreetmap.org/export/embed.html?bbox=-81.91406250000001%2C-34.089061315849946%2C-48.25195312500001%2C-10.487811882056683&amp;layer=mapnik" style="border: 1px solid black"></iframe><br/><small><a href="https://www.openstreetmap.org/?#map=5/-22.80/-65.08">Ver el mapa más grande</a></small>
+            <input type=" text"placeholder="telefono celular"/><br>
+            <input type="email"placeholder="coreo electronico"/><br>
+            <label> Genero</label>
+            <input type="radio" name="genero"> hombre<br>
+            <input type="radio" name="genero"> Mujer<br>
+            <input type="radio"name= "genero"> Sin especificar<br>
+            <button class="btn btn-envio">Enviar</button>
+        </form>
+    </body>
+        
+    
+</html>
